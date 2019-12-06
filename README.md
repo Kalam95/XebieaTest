@@ -32,6 +32,9 @@ There are 3 model files
 # Uitilies 
 Files like constanst, color and theme  are there in this sections. And extensions of [Data, Dictionary, Array, String, etc]
 
+# Uinit Testing 
+I have implemented one api test case as uinit testing as i found that that test was enough for the application as this application is  single screen application and every logic comes under that single test case. i did it because of lack of time.  
+
 
 
 
