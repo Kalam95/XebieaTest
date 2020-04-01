@@ -1,25 +1,392 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
-    </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
-            <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="53" y="375"/>
-        </scene>
-    </scenes>
-</document>
+"mobileApp_loginPage_title" = "Welcome to Banque Misr!";
+"mobileApp_loginPage_textField_username" = "Username";
+"mobileApp_loginPage_textField_password" = "Password";
+"mobileApp_loginPage_button_forgotPassword" = "Forgot Password?";
+"mobileApp_loginPage_button_Login" = "Login";
+"mobileApp_loginPage_button_fingerprint" = "or use your fingerprint";
+"mobileApp_loginPage_question_newToApp" = "New to the app?";
+"mobileApp_loginPage_hyperlink_register" = "Register";
+"mobileApp_loginPage_button_loanCalculator" = "Loan calculator";
+"mobileApp_loginPage_buttonLabel_products" = "Our products";
+"mobileApp_loginPage_buttonLabel_atm" = "Nearest Branch or ATM";
+"mobileApp_loginPage_buttonLabel_apply" = "Apply for";
+"mobileApp_loginPage_button_language" = "العربيه";
+"mobileApp_loginPage_alert_invalidcredentials_title" = "Alert!";
+"mobileApp_loginPage_alert_invalidcredentials_message" = "Invalid username or password";
+"mobileApp_logingPage_alert_invalidcredentials_button" = "Retry";
+"mobileApp_loginPage_alert_lastAttempt_title" = "Alert!";
+"mobileApp_loginPage_alert_lastAttempt_message" = "Invalid username or password, Last attempt left!";
+"mobileApp_loginPage_alert_lastAttempt_button" = "Retry";
+"mobileApp_loginPage_alert_serverConnection_title" = "Alert!";
+"mobileApp_loginPage_alert_serverConnection_message" = "Unable to connect to servers. Please try again after some time";
+"mobileApp_loginPage_alert_serverConnection_button_done" = "Done";
+"mobileApp_loginPage_alert_accountLocked_title" = "Alert!";
+"mobileApp_loginPage_alert_accountLocked_message" = "Your account is temporarily locked, Please call the customer service 19888";
+"mobileApp_loginPage_alert_accountLocked_button_cancel" = "Cancel";
+"mobileApp_loginPage_alert_accountLocked_button_call" = "Call";
+"mobileApp_dashboard_header_title" = "%s EGP";
+"mobileApp_dashboard_header_subtitle1" = "Total available balance";
+"mobileApp_dashboard_header_buttonLabel_active_BalanceView" = "Hide all balances";
+"mobileApp_dashboard_header_buttonLabel_inactive_BalanceView" = "Show all balances";
+"mobileApp_dashboard_myAccounts_header_subtitle" = "Total balance: ";
+"mobileApp_dashboard_myAccounts_card_label_balance" = "Balance";
+"mobileApp_dashboard_myAccounts_card_tag_savings" = "Savings";
+"mobileApp_dashboard_myAccounts_card_tag_current" = "Current";
+"mobileApp_dashboard_myAccounts_card_label_accountNumber" = "Account number";
+"mobileApp_dashboard_myAccounts_card_textField_accountNumber" = " ";
+"mobileApp_dashboard_myCards_card_label_availableLimit" = "Available Limit";
+"mobileApp_dashboard_myCards_card_textField_availableLimit" = " ";
+"mobileApp_dashboard_myCards_card_tag_credit" = "Credit";
+"mobileApp_dashboard_myCards_card_tag_prepaid" = "Prepaid";
+"mobileApp_dashboard_myCards_card_label_cardNumber" = "Card number";
+"mobileApp_dashboard_myCards_card_textField_cardNumber" = " ";
+"mobileApp_dashboard_myCards_card_label_cardValid" = "Valid until";
+"mobileApp_dashboard_myCards_card_textField_cardValidDate" = " ";
+"mobileApp_dashboard_myCards_card_button_apply" = "Apply for a new card";
+"mobileApp_dashboard_myCertificates_subtitle" = "Total balance:  ";
+"mobileApp_dashboard_myCertificates_card_label_certificateName" = " certificate";
+"mobileApp_dashboard_myCertificates_card_textField_certificateValue" = " ";
+"mobileApp_dashboard_myCertificates_card_tag_certificate" = "CD";
+"mobileApp_dashboard_myCertificates_card_tag_term" = "TD";
+"mobileApp_dashboard_myCertificates_card_tag_value" = " ";
+"mobileApp_dashboard_myCertificates_card_label_certNumber" = "Certificate number";
+"mobileApp_dashboard_myCertificates_card_textField_certNumber" = " ";
+"mobileApp_dashboard_myCertificates_card_label_maturity" = "Maturity date";
+"mobileApp_dashboard_myCertificates_card_textField_maturity" = " ";
+"mobileApp_dashboard_myCertificates_card_button_buy" = "Buy new certificate";
+"mobileApp_dashbboard_myLoans_subtitle" = "Total: ";
+"mobileApp_dashbboard_myLoans_card_label_balance" = "Balance";
+"mobileApp_dashbboard_myLoans_card_textField_balance" = " ";
+"mobileApp_dashbboard_myLoans_card_tag_mortgage" = "Mortgage";
+"mobileApp_dashbboard_myLoans_card_tag_personal" = "Personal";
+"mobileApp_dashbboard_myLoans_card_tag_durable" = "Durable";
+"mobileApp_dashbboard_myLoans_card_tag_auto" = "Auto";
+"mobileApp_dashbboard_myLoans_card_label_accountNumber" = "Account number";
+"mobileApp_dashbboard_myLoans_card_textField_accountNumber" = "%s";
+"mobileApp_dashbboard_myLoans_card_label_installment" = "Next installment";
+"mobileApp_dashbboard_myLoans_card_textField_installment" = "%s";
+"mobileApp_dashboard_offers_hyperlink" = "See all";
+"mobileApp_dashboard_offers_card_label_approximately" = "Approximately";
+"mobileApp_dashboard_offers_card_textField_offerValue" = "% ";
+"mobileApp_dashboard_offers_card_label_offerValue" = "available in minutes";
+"mobileApp_dashboard_offers_card_button_moreInfo" = "Find out how";
+"mobileApp_dashboard_navigationBar_button_home" = "Home";
+"mobileApp_dashboard_navigationBar_button_points" = "My Points";
+"mobileApp_dashboard_navigationBar_button_transfers" = "Transfers";
+"mobileApp_dashboard_navigationBar_button_help" = "Help";
+"mobileApp_dashboard_navigationBar_button_more" = "More";
+"mobileApp_dashboard_header_label_lastLogin" = "Last login";
+"mobileApp_dashboard_frequentlyUsed_header_inactive_primary" = "Quick Actions";
+"mobileApp_dashboard_frequentlyUsed_header_active_secondary" = "Frequently Used";
+"mobileApp_dashboard_frequentlyUsed_buttonLabel_transfer" = "Transfer to your account";
+"mobileApp_dashboard_frequentlyUsed_buttonLabel_mobileBill" = "Pay Mobile bill";
+"mobileApp_dashboard_frequentlyUsed_buttonLabel_electricityBill" = "Pay Electricity bill";
+"mobileApp_dashboard_frequentlyUsed_buttonLabel_cardBill" = "Pay Card bill";
+"mobileApp_dashboard_myAccounts_title" = "My accounts";
+"mobileApp_dashboard_myAccounts_card_textField_balanceValue" = "%s EGP";
+"mobileApp_dashboard_quickTransfer_title" = "Quick transfer";
+"mobileApp_dashboard_quickTransfer_profileButton" = "%";
+"mobileApp_dashboard_quickTransfer_profileButtonLabel" = "%";
+"mobileApp_dashboard_myCards_title" = "My cards";
+"mobileApp_dashboard_myCertificates_title" = "My certificates and deposits";
+"mobileApp_dashbboard_myLoans_title" = "My loans";
+"mobileApp_dashboard_offers_title" = "Offers";
+"mobileApp_generic_error" = "Something went wrong! Please try again";
+
+/*Certificate Deposit*/
+"mobileApp_CertificateDeposit_lbl_Certificate" = "Certificate deposit";
+"mobileApp_CertificateDeposit_lbl_Maturity_Ammount" = "Maturity Amount";
+"mobileApp_CertificateDeposit_lbl_Maturity" = "Maturity";
+"mobileApp_CertificateDeposit_lbl_Maturity_Date" = "Maturity Date";
+"mobileApp_CertificateDeposit_lbl_CD_Number" = "CD Number";
+"mobileApp_CertificateDeposit_lbl_Next_Interest_date" = "Next interest date";
+"mobileApp_CertificateDeposit_lbl_Interest_Amount" = "Interest amount";
+"mobileApp_CertificateDeposit_lbl_Interest_Account" = "Interest account";
+"mobileApp_CertificateDeposit_lbl_Tenor" = "Tenor";
+"mobileApp_CertificateDeposit_lbl_Start_Date" = "Start date";
+"mobileApp_CertificateDeposit_lbl_CD_Opening_Amount" = "CD opening amount";
+"mobileApp_CertificateDeposit_lbl_Interest_Rate" = "Interest rate";
+"mobileApp_CertificateDeposit_lbl_Action_After_Maturity" = "Action after maturity";
+"mobileApp_CertificateDeposit_lbl_Action_Redeem_Acount" = "Redeem account";
+"mobileApp_CertificateDeposit_lbl_Action" = "To change maturity action,";
+"mobileApp_CertificateDeposit_lbl_Vist" = "Visit nearest branch";
+"mobileApp_CertificateDeposit_lbl_Download" = "Download details";
+"mobileApp_certificateDepositScreen_text_tenor" = "months";
+"mobileApp_certificateDepositScreen_card_text_maturity" = "months left";
+"mobileApp_CertificateDeposit_lbl_TimeDeposi" = "Time deposit";
+"mobileApp_CertificateDeposit_lbl_TD_Number" = "TD Number";
+"mobileApp_CertificateDeposit_lbl_TD_Opening_Amount" = "TD opening amount";
+"loginText" = "";
+"userNameText" = "";
+"passwordText" = "";
+"forgotText" = "";
+"touchIdText" = "";
+"newAppText" = "";
+"registerText" = "";
+"userNameValidationText" = "";
+"validUserNameValidationText" = "";
+"passwordValidationText" = "";
+"validPasswordValidationText" = "";
+"alertText" = "";
+"okText" = "Okay";
+"languageText" = "";
+"mobileApp_dashboard_accountDetails_label_Actual_Balance" = "Actual Balance";
+"mobileApp_dashboard_accountDetails_label_Available_Balance" = "Available Balance";
+"mobileApp_dashboard_accountDetails_label_Pending_Transactions" = "Pending Transactions";
+"mobileApp_dashboard_accountDetails_label_Account_Title" = "Account Number";
+"mobileApp_dashboard_accountDetails_label_Branch_Name" = "Branch Name";
+"mobileApp_dashboard_accountDetails_label_Account_statement" = "Account statement";
+"mobileApp_dashboard_accountDetails_label_Debit_cards" = "Debit cards";
+"mobileApp_dashboard_accountDetails_label_Manage_cheques" = "Manage cheques";
+"mobileApp_dashboard_accountDetails_label_Make_a_transfer" = "Make a transfer";
+"retryText" = "Retry";
+"cancelText" = "Cancel";
+"callText" = "Call";
+"mobileApp_genric_error_language" = "Something went wrong! Please try again!";
+"mobileApp_loginPage_button_calculator" = "Loan calculator";
+"mobileApp_loginPage_button_products" = "Our products";
+"mobileApp_loginPage_button_atm" = "Nearest Branch or ATM";
+"mobileApp_loginPage_button_card" = "Apply for card";
+"mobileApp_loginPage_buttonLabel_exchangeRate" = "Exchange Rate";
+"mobileApp_loginPage_buttonLabel_nearest" = "Nearest Branch or ATM";
+"mobileApp_dashbboard_myLoans_card_button_apply" = "";
+
+/*/////Alam changed this thing from mobileApp_dashboard_frequentlyUsed_header_inactive_primary*/
+"mobileApp_dashboard_frequentlyUsed_header_inactive_title" = "Quick Actions";
+"mobileApp_dashboard_accountDetails_label_Account_Saving_Title" = "Saving Account";
+"mobileApp_dashboard_accountDetails_label_Account_Current_Title" = "Current Account";
+"mobileApp_dashboard_frequentlyUsed_header_active_title" = "Frequently Used";
+"mobileApp_dashboard_buttonLabel_transfer" = "Transfer to your account";
+"mobileApp_dashboard_buttonLabel_mobileBill" = "Pay Mobile bill";
+"mobileApp_dashboard_buttonLabel_electricityBill" = "Pay Electricity bill";
+"mobileApp_dashboard_buttonLabel_cardBill" = "Pay Card bill";
+"mobileApp_dashboard_myAccounts_header" = "My accounts";
+"mobileApp_dashboard_quick_transfer_header" = "Quick Transfers";
+"mobileApp_dashboard_myCards_Header" = "My cards";
+"mobileApp_dashboard_myCertificates_header" = "My certificates and deposits";
+"mobileApp_dashbboard_myLoans_header" = "My loans";
+"mobileApp_dashboard_header_subtitle2" = "Last login: ";
+"mobileApp_account_detail_transaction" = "Transactions";
+"mobileApp_account_detail_last_transaction" = "Last 10 transactions";
+"mobileApp_account_detail_all" = "All";
+"mobileApp_account_detail_cash_in" = "Cash In";
+"mobileApp_account_detail_cash_out" = "Cash Out";
+
+/*MARK:- Choose a beneficiary*/
+"mobileApp_transfer_chooseabeneficiary_navigationBar_header" = "Choose a beneficiary";
+"mobileApp_transfer_chooseabeneficiary_textFiled_SearchText" = "Search all beneficiary";
+"mobileApp_transfer_chooseabeneficiary_button_frequent" = "Frequent";
+"mobileApp_transfer_chooseabeneficiary_button_all" = "All";
+"mobileApp_transfer_chooseabeneficiary_buttonTitle_MyBanqueMisrAccounts" = "My Banque Misr accounts";
+"mobileApp_transfer_chooseabeneficiary_buttonTitle_TransferToAnewBeneficiary" = "Transfer to a new beneficiary";
+"mobileApp_transfer_chooseabeneficiary_labelText_or" = "or";
+
+/*MARK:- Transfer to self
+ MARK:- Pay credit card bill Screen*/
+"mobileApp_payCreditCardBill_lbl_TitleView" = "Pay credit card bill";
+"mobileApp_payCreditCardBill_button_PROCEEDTOPAY" = "PROCEED TO PAY";
+"mobileApp_payCreditCardBill_Card_details_lbl_CardDetails" = "Card details";
+"mobileApp_payCreditCardBill_Carddetails_button_Change" = "Change";
+"mobileApp_payCreditCardBill_wantPay_lbl_Pay" = "I Want To Pay";
+"mobileApp_payCreditCardBill_wantPay_button_minimumAmount" = "      Minimum amount ";
+"mobileApp_payCreditCardBill_wantPay_button_fullAmount" = "      Full amount ";
+"mobileApp_payCreditCardBill_wantPay_pay_button_otherAmount" = "      Other amount";
+"mobileApp_payCreditCardBill_payFrom_lbl_balance" = "Balance";
+"mobileApp_PayCreditCardBill_payFrom_lblAccountNumber" = "Account Number";
+"mobileApp_PayCreditCardBill_payFrom_lbl" = "Pay from";
+
+/*MARK:-  PayCCBillReviewDetailsViewController and Successful Transaction Controller*/
+"mobileApp_transferReviewDetails_title" = "Review details";
+"mobileApp_transferReviewDetails_textLabel_transferAmount" = "Amount";
+"mobileApp_PayCCBillReviewDetails_lbl_PaymentDate" = "Payment date";
+"mobileApp_PayCCBillReviewDetails_lbl_ExchangeRate" = "Exchange rate";
+"mobileApp_PayCCBillReviewDetails_lbl_AmountToBeDeducted" = "Amount to be deducted";
+"mobileApp_PayCCBillReviewDetails_lbl_PayingFrom" = "Paying from";
+"mobileApp_PayCCBillReviewDetails_lbl_SavingsAccount" = "Savings account";
+"mobileApp_PayCCBillReviewDetails_lbl_AccountBalanceBefore" = "Account Balance Before";
+"mobileApp_PayCCBillReviewDetails_lbl_AccountBalanceAfter" = "Account Balance After";
+"mobileApp_PayCCBillReviewDetails_lbl_PayingFor" = "Paying for";
+"mobileApp_PayCCBillReviewDetails_lbl_CreditCardBalance" = "Credit card balance";
+"mobileApp_PayCCBillReviewDetails_lbl_PAY NOW" = "PAY NOW";
+"mobileApp_payCreditCardBill_PaymentSuccess_lbl_success" = "Payment successful";
+"mobileApp_payCreditCardBill_PaymentSuccess_lbl_referenceID" = "Reference ID ";
+"mobileApp_payCreditCardBill_PaymentSuccess_btn_goToDashboard" = "GO TO DASHBOARD";
+"mobileApp_payCreditCard_transaction_success_success_button_label" = "DONE";
+
+/*MARK:- Transfere Review Details*/
+"mobileApp_TransfereReviewDetails_title" = "Review Details";
+"mobileApp_TransfereReviewDetails_lbl_TransfereAmount" = "Transfer amount";
+"mobileApp_TransfereReviewDetails_lbl_TransferDate" = "Transfer date";
+"mobileApp_TransfereReviewDetails_lbl_ExchangeRate" = "Exchange rate";
+"mobileApp_TransfereReviewDetails_lbl_ConvertedAmount" = "Converted amount";
+"mobileApp_TransfereReviewDetails_lbl_TransferFrom" = "Transfer from";
+"mobileApp_TransfereReviewDetails_lbl_TransferTo" = "Transfer to";
+"mobileApp_TransfereReviewDetails_lbl_AccountBalanceBefore" = "Account balance before";
+"mobileApp_TransfereReviewDetails_lbl_AccountBalanceAfter" = "Account balance after";
+"mobileApp_TransfereReviewDetails_lbl_Description" = "Description";
+"mobileApp_TransfereReviewDetails_lbl_TRANSFER_MONEY" = "TRANSFER MONEY";
+
+/*Mark :- Manage Beneficiaries*/
+"mobileApp_manageBeneficiaries_button_addBeneficiary" = "Add a new beneficiary";
+"mobileApp_manageBeneficiaries_viewTitle" = "Manage beneficiaries";
+
+/*/////////
+ -------------------*/
+"mobileApp_AccountDetail_lbl_SelectDateRange" = "Select a date range";
+"mobileApp_AccountDetail_lbl_Last7" = "Last 7 days";
+"mobileApp_AccountDetail_lbl_Last30" = "Last 30 days";
+"mobileApp_AccountDetail_lbl_Last90" = "Last 90 days";
+"mobileApp_AccountDetail_lbl_Upcomming" = "Upcoming Transactions";
+"mobileApp_AccountDetail_lbl_Would_like" = "I would like to see";
+
+/*Mark :- Transfer To Self*/
+"mobileApp_TransfereToSelf_title" = "Transfer to self";
+"mobileApp_TransfereToSelf_lbl_Beneficiary" = "Beneficiary";
+"mobileApp_TransfereToSelf_button_Change" = "Change";
+"mobileApp_TransfereToSelf_lbl_TransferFrom" = "Transfer from";
+"mobileApp_TransfereToSelf_lbl_Balance" = "Balance";
+"mobileApp_TransfereToSelf_button_Savings" = "Savings";
+"mobileApp_TransfereToSelf_lbl_AccountNumber" = "Account number";
+"mobileApp_TransfereToSelf_lbl_Amount" = "Amount";
+"mobileApp_TransfereToSelf_lbl_DescribeThisTransfer" = "Describe this Transfer";
+"mobileApp_TransfereToSelf_lbl_Optional" = "(Optional)";
+"mobileApp_TransfereToSelf_lbl_TransferDate" = "Transfer date";
+"mobileApp_TransfereToSelf_lbl_Frequency" = "Frequency";
+"mobileApp_TransfereToSelf_lbl_UntilWhen" = "Until when";
+"mobileApp_TransfereToSelf_button_CONTINUE" = "CONTINUE";
+"mobileApp_TransfereToSelf_textField_Date" = "Date";
+"mobileApp_TransfereToSelf_textField_OnlyOnce" = "Only Once";
+
+/*Mark :- Choose Frequency*/
+"mobileApp_ChooseFrequency_Title_Choosefrequency" = "Choose frequency";
+"mobileApp_ChooseFrequency_lbl_OnlyOnce" = "Only once";
+"mobileApp_ChooseFrequency_lbl_Weekly" = "Weekly";
+"mobileApp_ChooseFrequency_lbl_BiWeekly" = "Bi Weekly";
+"mobileApp_ChooseFrequency_lbl_Monthly" = "Monthly";
+"mobileApp_ChooseFrequency_lbl_BiMonthly" = "Bi Monthly";
+"mobileApp_ChooseFrequency_lbl_Quarterly" = "Quarterly";
+"mobileApp_ChooseFrequency_lbl_Halfyearly" = "Half yearly";
+"mobileApp_ChooseFrequency_lbl_Yearly" = "Yearly";
+"mobileApp_ChooseFrequency_lbl_CustomDate" = "Custom Date";
+
+/*Alert*/
+"mobileApp_Alert_Title" = "Alert";
+"mobileApp_Alert_errorTitle" = "Error";
+"mobileApp_Alert_button_OK" = "Ok";
+"mobileApp_Alert_button_Cancel" = "Cancel";
+
+/*Mark :- Add new beneficiary*/
+"mobileApp_addBeneficiary_title" = "Add new beneficiary";
+"mobileApp_addBeneficiary_textLabel_whereIsYourBeneficiaryBank" = "Where is your beneficiary from?";
+"mobileApp_addBeneficiary_buttonLabel_insideEgypt" = "Inside Egypt";
+"mobileApp_addBeneficiary_buttonLabel_outsideEgypt" = "Outside Egypt";
+
+/*Alert New*/
+"mobileApp_addBeneficiary_dialogTitle_alert" = "Alert!";
+"mobileApp_addBeneficiary_dialogButton_cancel" = "Cancel";
+"mobileApp_addBeneficiary_dialogButton_ok" = "Ok";
+"mobileApp_addBeneficiary_dialogButton_yes" = "Yes";
+"mobileApp_addBeneficiary_dialogButton_goBack" = "Go back";
+"mobileApp_addBeneficiary_dialogMessage_ifYouGoBack" = "If you go back you will lose the information.";
+"mobileApp_addBeneficiary_dialogMessage_areYouSure" = "Are you sure you want to cancel?";
+"mobileApp_addBeneficiary_dialogMessage_mismatchedAccountNumber" = "The confirmation account number you have entered does not match.";
+
+/*Mark Add Local Beneficiary*/
+"mobileApp_addLocalBeneficiary_title" = "Add new local beneficiary";
+"mobileApp_addLocalBeneficiary_textLabel_name" = "Name";
+"mobileApp_addLocalBeneficiary_textLabel_bank" = "Bank";
+"mobileApp_addLocalBeneficiary_textLabelHint_chooseBankName" = "Choose the bank name";
+"mobileApp_addLocalBeneficiary_textLabel_branchCode" = "Branch Code";
+"mobileApp_addLocalBeneficiary_textLabelHint_optional" = "(Optional)";
+"mobileApp_addLocalBeneficiary_textLabel_accountNumber" = "Account number";
+"mobileApp_addLocalBeneficiary_textLabel_confirmAccountNumber" = "Confirm account number";
+"mobileApp_addLocalBeneficiary_buttonLabel_continue" = "Continue";
+
+/*Time Deposit*/
+"mobileApp_CertificateDeposit_lbl_TimeDeposit" = "Time deposit";
+
+/*Prepaid Card*/
+"mobileApp_PrepaidCard_lbl_Prepaidcard" = "Prepaid card";
+"mobileApp_PrepaidCard_lbl_CardStatement" = "Card statement";
+"mobileApp_PrepaidCard_lbl_BlockCard" = "Block card";
+"mobileApp_PrepaidCard_lbl_ValidTill" = "Valid till";
+
+/*Loan*/
+"mobileApp_LoanDetail_lbl_Loan" = "Loan";
+"mobileApp_LoanDetail_lbl_YouHavePaid" = "You have paid";
+"mobileApp_LoanDetail_lbl_AmountLeft" = "Amount left to pay";
+"mobileApp_LoanDetail_lbl_InstalmentsLeft" = "Instalments left";
+"mobileApp_LoanDetail_lbl_LoanAccountNumber" = "Loan Account Number";
+"mobileApp_LoanDetail_lbl_PersonalLoan" = "Personal Loan";
+"mobileApp_LoanDetail_lbl_NextInstallment" = "Next Installment";
+"mobileApp_LoanDetail_lbl_LoanAmountTaken" = "Loan amount taken";
+"mobileApp_LoanDetail_lbl_LoanInterestAmount" = "Loan interest amount";
+"mobileApp_LoanDetail_lbl_AmountPast" = "Amount past due";
+"mobileApp_LoanDetail_lbl_ToChangeLoan" = "To change your loan details,";
+"mobileApp_LoanDetail_lbl_ViewPayment" = "View payment history";
+
+/*MARK: - payee details*/
+"mobileApp_PayeeDetails_title_details" = "Details";
+"mobileApp_PayeeDetails_barItem_edit" = "Edit";
+"mobileApp_PayeeDetails_button_transfer" = "Transfer";
+"mobileApp_PayeeDetails_label_accountDetails" = "Account details";
+"mobileApp_PayeeDetails_label_bankName" = "Bank name";
+"mobileApp_PayeeDetails_label_accountNo" = "Account number";
+"mobileApp_PayeeDetails_label_branchCode" = "Branch code";
+"mobileApp_PayeeDetails_label_personalDetails" = "Personal details";
+"mobileApp_PayeeDetails_label_homeAddress" = "Home address ";
+"mobileApp_PayeeDetails_label_country" = "Country";
+"mobileApp_PayeeDetails_label_city" = "City";
+"mobileApp_PayeeDetails_label_bankDetails" = "Bank details";
+"mobileApp_PayeeDetails_label_swiftCode" = "Swift code";
+
+/*MARK: - Block Card*/
+"mobileApp_blockCard_title" = "Select a card to block";
+"mobileApp_blockCard_buttonLabel_credit" = "Credit";
+"mobileApp_blockCard_buttonLabel_debit" = "Debit";
+"mobileApp_blockCard_buttonLabel_prepaid" = "Prepaid";
+"mobileApp_blockCard_confirmDialog_title" = "Are you sure you want to block this card?";
+"mobileApp_blockCard_confirmDialog_buttonLabel_confirm" = "Confirm";
+"mobileApp_blockCard_confirmDialog_buttonLabel_cancel" = "Cancel";
+"mobileApp_blockCardSuccess_textLabel_success" = "Card blocked successfully";
+"mobileApp_blockCardSuccess_buttonLabel_done" = "Done";
+
+/*MARK: - Review LocalBeneficiary*/
+"mobileApp_reviewBeneficiaryDetails_title" = "Review beneficiary details";
+"mobileApp_reviewBeneficiaryDetails_textLabel_name" = "Name";
+"mobileApp_reviewBeneficiaryDetails_textLabel_bankName" = "Bank Name";
+"mobileApp_reviewBeneficiaryDetails_textLabel_branchCode" = "Branch code";
+"mobileApp_reviewBeneficiaryDetails_textLabel_accountNumber" = "Account number";
+"mobileApp_reviewBeneficiaryDetails_buttonLabel_addBeneficiary" = "Add beneficiary";
+
+/*MARK: - Add Beneficiary Success*/
+"mobileApp_addBeneficiarySuccess_textLabel_beneficiarySavedSuccess" = "Beneficiary saved successfully";
+"mobileApp_addBeneficiarySuccess_buttonLabel_transferNow" = "Transfer now";
+"mobileApp_addBeneficiarySuccess_buttonLabel_done" = "Done";
+
+/*MARK: - Add Global Beneficiary*/
+"mobileApp_addInternationalBeneficiary_title" = "Add new international beneficiary";
+"mobileApp_addInternationalBeneficiary_textLabel_enterAllDetails" = "Please enter all the details";
+"mobileApp_addInternationalBeneficiary_textLabel_personalDetails" = "Personal details";
+"mobileApp_addInternationalBeneficiary_textLabel_name" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_homeAddress" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_maxChars" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_country" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_city" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_bankDetails" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_bankName" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_swiftCode" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_accountNumber" = "";
+"mobileApp_addInternationalBeneficiary_textLabel_confirmAccountNumber" = "";
+"mobileApp_addInternationalBeneficiary_buttonLabel_continue" = "";
+
+/*MARK: -Prepaid*/
+"mobileApp_dashboard_accountDetails_label_Card_Prepaid_Title" = "";
+
+/*MARK: MISSING KEYS*/
+"mobileApp_dashbboard_deposit_detail_tag_days" = "";
+"mobileApp_dashbboard_deposit_detail_tag_days_left" = "";
+"mobileApp_LoanDetail_lbl_days_delay" = "";
+"mobileApp_LoanDetail_lbl_day_delay" = "";
+"mobileApp_LoanDetail_lbl_out_of" = "";
+"mobileApp_LoanDetail_lbl_of" = "";
